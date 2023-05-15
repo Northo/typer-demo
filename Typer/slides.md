@@ -216,6 +216,14 @@ Hello, Universe
 - <material-symbols-sentiment-sad-rounded /> `typer-cli` does not support newest `Typer`
 - Installable package with scripts
 
+```toml
+# pyproject.toml
+
+...
+[tool.poetry.scripts]
+rick-portal-gun = "rick_portal_gun.main:app"
+```
+
 ---
 
 # Intermediate
