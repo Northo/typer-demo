@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "typerdemo"
+version = "0.1.0"
+description = ""
+authors = ["Thorvald Molthe Ballestad <thorvald@simula.no>"]
+
+[tool.poetry.scripts]
+intermediate = "typerdemo.intermediate:app"
+demo = "typerdemo.demo:app"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = {extras = ["all"], version = "^0.9.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
