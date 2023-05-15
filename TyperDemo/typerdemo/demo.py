@@ -1,3 +1,5 @@
+"""Demo used to create screencast for presentation."""
+
 from typing import Annotated
 import typer
 from enum import Enum

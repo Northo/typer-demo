@@ -1,3 +1,8 @@
+"""Simple Typer app with two commands.
+
+Demonstrates the use of the Typer object to create a command line application, 
+and using default values."""
+
 from typer import Typer
 
 app = Typer()

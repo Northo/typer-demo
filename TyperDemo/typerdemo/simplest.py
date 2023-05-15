@@ -1,3 +1,5 @@
+"""The simplest Typer app."""
+
 import typer
 
 def main(name: str) -> None:

@@ -1,3 +1,7 @@
+"""Intermediate Typer demo.
+
+Demonstrates more complex data types, and annotations for options and arguments.
+"""
 from pathlib import Path
 from enum import Enum
 from typing import Annotated

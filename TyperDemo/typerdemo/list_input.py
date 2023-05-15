@@ -1,3 +1,7 @@
+"""List input demo.
+
+Demonstrates how to accept a list of values as input and setting custom names."""
+
 from typing import Optional, Annotated
 
 import typer
